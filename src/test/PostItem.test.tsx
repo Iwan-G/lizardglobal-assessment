@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import PostItem from '../components/PostItem';
-import { Post } from '../components/PostItem'; // Make sure to export Post interface from PostItem if needed
+import { Post } from '../components/PostItem';
 
 // Mock data
 const mockPost: Post = {

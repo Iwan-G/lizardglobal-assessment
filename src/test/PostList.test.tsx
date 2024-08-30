@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import PostList from '../components/PostList';
-import { Post } from '../components/PostList'; // import the Post interface
+import { Post } from '../components/PostList';
 
 // Mock data
 const mockPosts: Post[] = [
