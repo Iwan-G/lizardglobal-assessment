@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface PaginationProps {
+export interface PaginationProps {
   postsPerPage: number; // Number of posts to display per page
   totalPosts: number; // Total number of posts available
   paginate: (pageNumber: number) => void; // Function to handle page number click

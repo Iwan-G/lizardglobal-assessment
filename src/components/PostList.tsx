@@ -1,7 +1,7 @@
 import React from 'react';
 import PostItem from './PostItem';
 
-interface Post {
+export interface Post {
   id: string;
   title: string;
   publishDate: string;

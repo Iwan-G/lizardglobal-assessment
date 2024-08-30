@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Define the structure of a Post object for the PostItem component
-interface Post {
+export interface Post {
   id: string;
   title: string;
   publishDate: string;

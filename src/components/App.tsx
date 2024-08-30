@@ -3,7 +3,7 @@ import PostList from './PostList';
 import Filter from './Filter';
 import Pagination from './Pagination';
 
-interface Post {
+export interface Post {
   id: string;
   title: string;
   publishDate: string;

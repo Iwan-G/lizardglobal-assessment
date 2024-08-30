@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface FilterProps {
+export interface FilterProps {
   categories: string[]; // Array of category names to display in the dropdown
   onCategoryChange: (category: string) => void; // Function to handle the category change event
 }
